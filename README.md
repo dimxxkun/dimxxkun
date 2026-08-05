@@ -1,8 +1,8 @@
 <div align="center">
 
-# Hi there, I'm Sanusi Abdulfatai Oyewunmi 👋
+# Sanusi Abdulfatai Oyewunmi
 
-### 🌍 Geospatial & Remote Sensing Specialist | 💻 Full-Stack GeoDev
+**Geospatial & Remote Sensing Specialist | Full-Stack GeoDev**
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/abdulfatai-sanusi-gis)
 [![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://sanusiabdulfatai.vercel.app)
@@ -12,7 +12,7 @@
 
 ---
 
-### 🛰️ About Me
+## About Me
 
 Geospatial and Remote Sensing Specialist with **5+ years** of experience designing geospatial intelligence systems, satellite data pipelines, and enterprise GIS applications across **defense**, **utilities**, and **environmental** sectors.
 
@@ -20,7 +20,7 @@ I work across the full stack: **spatial data engineering**, **backend automation
 
 ---
 
-### 🧰 Tech Stack
+## Tech Stack
 
 **GIS & Remote Sensing** · ArcGIS Pro · ArcGIS Enterprise · QGIS · Google Earth Engine · ESA SNAP · ERDAS · ENVI · GeoServer · GDAL · Pix4D · Mapbox · Cesium
 
@@ -34,13 +34,13 @@ I work across the full stack: **spatial data engineering**, **backend automation
 
 ---
 
-### 🏆 Sectors
+## Sectors
 
 `Defense & Satellite Intelligence` · `Power & Utilities` · `Environmental Management` · `Urban Planning` · `Real Estate & Infrastructure`
 
 ---
 
-### 🏅 Recognition
+## Recognition
 
 | Award | Year |
 |:------|:----:|
@@ -50,7 +50,7 @@ I work across the full stack: **spatial data engineering**, **backend automation
 
 ---
 
-### 📊 GitHub Stats
+## GitHub Stats
 
 <div align="center">
 
@@ -66,6 +66,6 @@ I work across the full stack: **spatial data engineering**, **backend automation
 
 **Open to collaborations in geospatial development, GeoAI research, and enterprise GIS solutions.**
 
-⭐ *From [dimxxkun](https://github.com/dimxxkun)* | Mapping the world, one commit at a time 🌍
+*From [dimxxkun](https://github.com/dimxxkun)* | Mapping the world, one commit at a time
 
 </div>
