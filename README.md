@@ -16,7 +16,7 @@
 
 Geospatial and Remote Sensing Specialist with **5+ years** of experience designing geospatial intelligence systems, satellite data pipelines, and enterprise GIS applications across **defense**, **utilities**, and **environmental** sectors.
 
-I work across the full stack — **spatial data engineering**, **backend automation**, and **frontend map application development**.
+I work across the full stack: **spatial data engineering**, **backend automation**, and **frontend map application development**.
 
 ---
 
@@ -66,6 +66,6 @@ I work across the full stack — **spatial data engineering**, **backend automat
 
 **Open to collaborations in geospatial development, GeoAI research, and enterprise GIS solutions.**
 
-⭐ *From [dimxxkun](https://github.com/dimxxkun)* — Mapping the world, one commit at a time 🌍
+⭐ *From [dimxxkun](https://github.com/dimxxkun)* | Mapping the world, one commit at a time 🌍
 
 </div>
