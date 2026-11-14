@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" fill="none" role="img" aria-labelledby="title desc">
+  <title id="title">Sanusi Abdulfatai Oyewunmi — Geospatial Software Engineer</title>
+  <desc id="desc">A dark cartographic banner with mint topographic contours and a coordinate grid. From satellite data to useful software.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1200" y2="420" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#101E29"/><stop offset="1" stop-color="#071519"/>
+    </linearGradient>
+    <linearGradient id="fade" x1="710" y1="0" x2="1180" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#72DCC1" stop-opacity=".04"/><stop offset="1" stop-color="#72DCC1" stop-opacity=".4"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" stroke="#82B6AC" stroke-opacity=".09"/>
+    </pattern>
+    <clipPath id="bounds"><rect width="1200" height="420" rx="20"/></clipPath>
+  </defs>
+  <g clip-path="url(#bounds)">
+    <rect width="1200" height="420" fill="url(#background)"/>
+    <rect x="740" width="460" height="420" fill="url(#grid)"/>
+    <g stroke="url(#fade)" stroke-width="1.5">
+      <path d="M722-30C735 49 793 58 823 113S780 211 821 280s25 117-15 166"/>
+      <path d="M751-35C766 41 820 57 847 113s-38 95-2 162 31 123-8 173"/>
+      <path d="M780-39C796 35 847 55 872 112s-34 92-3 156 38 129-1 182"/>
+      <path d="M810-42C826 29 874 53 897 112s-30 88-4 150 44 134 6 190"/>
+      <path d="M840-45C856 23 901 51 922 112s-26 84-5 144 50 140 13 198"/>
+      <path d="M870-48C886 17 928 49 947 112s-22 80-6 138 56 146 20 206"/>
+      <path d="M900-51C916 11 955 47 972 112s-18 76-7 132 62 152 27 208"/>
+      <path d="M930-54C946 5 982 45 997 112s-14 72-8 126 68 158 34 210"/>
+      <path d="M960-57C976-1 1009 43 1022 112s-10 68-9 120 74 164 41 212"/>
+      <path d="M990-60C1006-7 1036 41 1047 112s-6 64-10 114 80 170 48 214"/>
+      <path d="M1020-63C1036-13 1063 39 1072 112s-2 60-11 108 86 176 55 216"/>
+      <path d="M1050-66C1066-19 1090 37 1097 112s2 56-12 102 92 182 62 218"/>
+      <path d="M1080-69C1096-25 1117 35 1122 112s6 52-13 96 98 188 69 220"/>
+      <path d="M1110-72C1126-31 1144 33 1147 112s10 48-14 90 104 194 76 222"/>
+    </g>
+    <g stroke="#91E7C2">
+      <circle cx="984" cy="196" r="91" stroke-opacity=".18"/>
+      <circle cx="984" cy="196" r="58" stroke-opacity=".35" stroke-dasharray="3 7"/>
+      <circle cx="984" cy="196" r="8" fill="#C6F475" stroke="none"/>
+      <path d="M984 85V110M984 282V307M873 196H898M1070 196H1095" stroke-opacity=".7"/>
+      <path d="M990 190L1082 98H1137" stroke-opacity=".65"/>
+      <circle cx="1082" cy="98" r="3" fill="#91E7C2" stroke="none"/>
+    </g>
+    <text x="1148" y="80" text-anchor="end" fill="#A7C8BF" font-family="Consolas,monospace" font-size="12" letter-spacing="2">SPATIAL / SYSTEMS</text>
+    <rect x="52" y="50" width="28" height="4" rx="2" fill="#C6F475"/>
+    <text x="94" y="59" fill="#C6F475" font-family="Consolas,monospace" font-size="16" letter-spacing="3">DIMXXKUN</text>
+    <text x="52" y="108" fill="#C1D4D6" font-family="Arial,Helvetica,sans-serif" font-size="19" letter-spacing="1">SANUSI ABDULFATAI OYEWUNMI</text>
+    <text x="48" y="185" fill="#F2F6EF" font-family="Arial,Helvetica,sans-serif" font-size="66" font-weight="700" letter-spacing="-2">Geospatial</text>
+    <text x="48" y="259" fill="#F2F6EF" font-family="Arial,Helvetica,sans-serif" font-size="66" font-weight="700" letter-spacing="-2">Software Engineer.</text>
+    <text x="52" y="305" fill="#B0C9CC" font-family="Arial,Helvetica,sans-serif" font-size="23">From satellite data to useful software.</text>
+    <path d="M52 345H1148" stroke="#94B8B2" stroke-opacity=".2"/>
+    <text x="52" y="380" fill="#8CB4AE" font-family="Consolas,monospace" font-size="14" letter-spacing="2">EARTH OBSERVATION</text>
+    <text x="283" y="380" fill="#C6F475" font-family="Consolas,monospace" font-size="14">/</text>
+    <text x="315" y="380" fill="#8CB4AE" font-family="Consolas,monospace" font-size="14" letter-spacing="2">SPATIAL DATA</text>
+    <text x="493" y="380" fill="#C6F475" font-family="Consolas,monospace" font-size="14">/</text>
+    <text x="525" y="380" fill="#8CB4AE" font-family="Consolas,monospace" font-size="14" letter-spacing="2">WEB ENGINEERING</text>
+    <text x="1148" y="380" text-anchor="end" fill="#C6F475" font-family="Consolas,monospace" font-size="14" letter-spacing="2">BUILD WITH CONTEXT.</text>
+  </g>
+</svg>

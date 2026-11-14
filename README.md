@@ -1,71 +1,66 @@
-<div align="center">
+<p align="center">
+  <img src="./profile-banner.svg" width="100%" alt="Sanusi Abdulfatai Oyewunmi — Geospatial Software Engineer. From satellite data to useful software." />
+</p>
 
-# Sanusi Abdulfatai Oyewunmi
+<p align="center">
+  <a href="https://sanusiabdulfatai.com"><strong>Portfolio ↗</strong></a>
+  &nbsp;&nbsp; / &nbsp;&nbsp;
+  <a href="https://linkedin.com/in/abdulfatai-sanusi-gis"><strong>LinkedIn ↗</strong></a>
+  &nbsp;&nbsp; / &nbsp;&nbsp;
+  <a href="mailto:work.abdulfatai@gmail.com"><strong>Let's build ↗</strong></a>
+</p>
 
-**Geospatial & Remote Sensing Specialist | Full-Stack GeoDev**
+## Spatial data. Real-world software.
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/abdulfatai-sanusi-gis)
-[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://sanusiabdulfatai.com)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:work.abdulfatai@gmail.com)
+I'm **Sanusi Abdulfatai Oyewunmi**, a **Geospatial Software Engineer** connecting remote sensing, spatial data engineering, and full-stack development. I build the pipelines, APIs, and map interfaces that turn satellite imagery and location data into usable tools.
 
-</div>
+My background spans **5+ years** across geospatial intelligence, utilities, and environmental applications.
+
+| Observe | Engineer | Deliver |
+| :--- | :--- | :--- |
+| Satellite imagery, remote sensing, and spatial analysis | Data pipelines, spatial databases, and backend APIs | Interactive maps, analytical dashboards, and GIS applications |
+
+## Featured project · Urban Heat Island Analysis
+
+**From Landsat imagery to surface-temperature maps and urban heat insights.**
+
+<a href="https://github.com/dimxxkun/UHI_LST-MODEL">
+  <img src="https://raw.githubusercontent.com/dimxxkun/UHI_LST-MODEL/main/docs/screenshots/dashboard.png" width="100%" alt="UHI-LST platform dashboard showing an interactive map, surface-temperature analytics, and land-cover charts." />
+</a>
+
+- Processes **Landsat 8/9** bands for land surface temperature and urban heat island analysis.
+- Connects a **Python / FastAPI** analysis backend to a **React / TypeScript** interface.
+- Presents heatmaps, land-cover analysis, and thermal hotspot insights through **Leaflet** and interactive charts.
+
+**[Explore the project →](https://github.com/dimxxkun/UHI_LST-MODEL)** &nbsp; · &nbsp; [Architecture & setup](https://github.com/dimxxkun/UHI_LST-MODEL#system-architecture)
+
+## Engineering beyond the map
+
+| Project | What it explores | Built with |
+| :--- | :--- | :--- |
+| **[Zenith Gateway](https://github.com/dimxxkun/zenith-gateway)** | API traffic management with rate limiting, circuit breakers, and load balancing | Go |
+| **[Strata Queue](https://github.com/dimxxkun/strata-queue)** | Partitioned messaging, consumer groups, offset tracking, and dead-letter queues | Rust |
+
+## Open-source contributions
+
+**[REA](https://github.com/morluto/rea)** — contributed a [fix for trailing-slash package exports](https://github.com/morluto/rea/commit/3a25046b8c69b85c6cd11f64b2f936ad7252cc1f), with regression coverage. Also shared [Windows browser reproduction results](https://github.com/morluto/rea/issues/8312#issuecomment-6878560184) to help investigate an unresolved report.
+
+## Tools I work with
+
+| Layer | Tools |
+| :--- | :--- |
+| **Spatial & remote sensing** | ArcGIS Pro / Enterprise · QGIS · Google Earth Engine · GDAL |
+| **Analysis & data** | Python · GeoPandas · Rasterio · NumPy · PostgreSQL / PostGIS |
+| **APIs & applications** | FastAPI · Django · Node.js · React · Next.js · TypeScript |
+| **Maps & delivery** | Leaflet · Mapbox GL JS · OpenLayers · Cesium · Docker |
+
+## Recognition & learning
+
+- **3rd Place — Esri Young Scholars Award, Nigeria** · 2025
+- **NASA ARSET — Hyperspectral Data for Land and Coastal Systems** · 2026
 
 ---
 
-## About Me
+**Building something spatial?** I'm open to collaboration on geospatial applications, GeoAI, and enterprise GIS.
 
-Geospatial and Remote Sensing Specialist with **5+ years** of experience designing geospatial intelligence systems, satellite data pipelines, and enterprise GIS applications across **defense**, **utilities**, and **environmental** sectors.
-
-I work across the full stack: **spatial data engineering**, **backend automation**, and **frontend map application development**.
-
----
-
-## Tech Stack
-
-**GIS & Remote Sensing** · ArcGIS Pro · ArcGIS Enterprise · QGIS · Google Earth Engine · ESA SNAP · ERDAS · ENVI · GeoServer · GDAL · Pix4D · Mapbox · Cesium
-
-**GeoAI & Analysis** · Python · ArcPy · GeoPandas · Rasterio · NumPy · Deep Learning · Hugging Face · Roboflow
-
-**Web & App Dev** · React · Next.js · TypeScript · Node.js · Django · Leaflet · OpenLayers · Mapbox GL JS · deck.gl · Docker · Vercel
-
-**Database** · PostgreSQL · PostGIS · ETL Pipelines
-
-**Esri Platform** · Field Maps · Survey123 · Experience Builder · Dashboards · StoryMaps · ArcGIS Urban · CityEngine
-
----
-
-## Sectors
-
-`Defense & Satellite Intelligence` · `Power & Utilities` · `Environmental Management` · `Urban Planning` · `Real Estate & Infrastructure`
-
----
-
-## Recognition
-
-| Award | Year |
-|:------|:----:|
-| **3rd Place**, Esri Young Scholars Award, Nigeria | 2025 |
-| **Shortlisted Finalist**, Esri Young Scholars Award | 2025 |
-| **NASA ARSET Certified**, Hyperspectral Data for Land and Coastal Systems | 2026 |
-
----
-
-## GitHub Stats
-
-<div align="center">
-
-<img height="160" src="https://github-readme-stats.vercel.app/api?username=dimxxkun&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&count_private=true" /> <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=dimxxkun&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&langs_count=6" />
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=dimxxkun&theme=tokyonight&hide_border=true&background=0D1117" />
-
-</div>
-
----
-
-<div align="center">
-
-**Open to collaborations in geospatial development, GeoAI research, and enterprise GIS solutions.**
-
-*From [dimxxkun](https://github.com/dimxxkun)* | Mapping the world, one commit at a time
-
-</div>
+[See my portfolio](https://sanusiabdulfatai.com) &nbsp; · &nbsp; [Get in touch](mailto:work.abdulfatai@gmail.com)
