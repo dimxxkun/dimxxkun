@@ -1,5 +1,5 @@
 <a href="https://www.sanusiabdulfatai.com">
-  <img src="./profile-banner.svg" width="100%" alt="Sanusi Abdulfatai — Geospatial Software Engineer. Abuja, Nigeria." />
+  <img src="./profile-banner.svg" width="100%" alt="Sanusi Abdulfatai — Geospatial Software Engineer and Cesium Certified Developer. Abuja, Nigeria." />
 </a>
 
 <p align="center">
@@ -17,7 +17,7 @@
 
 ## I'm Abdulfatai. I write software that understands place.
 
-I'm a **Geospatial Software Engineer** based in **Abuja, Nigeria**, working across satellite intelligence, enterprise GIS, GeoAI, and full-stack applications. At **Proforce Galaxies Limited**, I build geospatial software, develop GeoAI and GenAI pipelines, and automate spatial workflows for the defence, space, and satellite sectors.
+I'm a **Geospatial Software Engineer** and **Cesium Certified Developer** based in **Abuja, Nigeria**, working across satellite intelligence, enterprise GIS, GeoAI, and full-stack applications. At **Proforce Galaxies Limited**, I build geospatial software, develop GeoAI and GenAI pipelines, and automate spatial workflows for the defence, space, and satellite sectors.
 
 My work runs from a satellite band or a field survey all the way to a database, an API, and an interface someone can actually use. That has meant mapping electricity networks, modelling solar-site suitability, analysing urban heat, and building 3D tools in the browser.
 
