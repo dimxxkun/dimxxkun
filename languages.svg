@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-labelledby="title desc">
+<title id="title">Languages I write</title><desc id="desc">Python, TypeScript, JavaScript, SQL, Rust, Go, C++, Java. From geospatial analysis and browser interfaces to storage and distributed systems.</desc>
+<rect width="1200" height="340" fill="#F2EFE6"/>
+<g stroke="#C9C5BB"><path d="M0 170H1200M300 0V340M600 0V340M900 0V340"/></g>
+<g font-family="Consolas,monospace" font-size="15" fill="#DB4C2D" letter-spacing="2">
+<text x="28" y="37">01 / GEOAI &amp; ANALYSIS</text><text x="328" y="37">02 / TYPED APPLICATIONS</text><text x="628" y="37">03 / WEB &amp; BROWSER</text><text x="928" y="37">04 / SPATIAL DATABASES</text>
+<text x="28" y="207">05 / SEARCH &amp; MESSAGING</text><text x="328" y="207">06 / APIS &amp; CONCURRENCY</text><text x="628" y="207">07 / STORAGE ENGINES</text><text x="928" y="207">08 / WORKFLOW SYSTEMS</text>
+</g>
+<g font-family="Arial,Helvetica,sans-serif" font-size="43" font-weight="700" fill="#242320" letter-spacing="-1.5">
+<text x="26" y="100">Python</text><text x="326" y="100">TypeScript</text><text x="626" y="100">JavaScript</text><text x="926" y="100">SQL</text>
+<text x="26" y="270">Rust</text><text x="326" y="270">Go</text><text x="626" y="270">C++</text><text x="926" y="270">Java</text>
+</g>
+<g font-family="Arial,Helvetica,sans-serif" font-size="17" fill="#66625B">
+<text x="28" y="139">Pipelines, rasters, models</text><text x="328" y="139">Interfaces, maps, 3D</text><text x="628" y="139">Applications &amp; services</text><text x="928" y="139">PostgreSQL / PostGIS</text>
+<text x="28" y="309">Brokers &amp; inverted indexes</text><text x="328" y="309">Gateways &amp; key-value stores</text><text x="628" y="309">MemTables, WAL, SSTables</text><text x="928" y="309">DAGs &amp; asynchronous tasks</text>
+</g>
+</svg>

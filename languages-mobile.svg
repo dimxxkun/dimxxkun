@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="640" viewBox="0 0 640 640" role="img" aria-labelledby="title">
+<title id="title">Languages I write: Python, TypeScript, JavaScript, SQL, Rust, Go, C++, Java.</title>
+<rect width="640" height="640" fill="#F2EFE6"/>
+<g stroke="#C9C5BB"><path d="M320 0V640M0 160H640M0 320H640M0 480H640"/></g>
+<g font-family="Consolas,monospace" font-size="14" fill="#DB4C2D" letter-spacing="1">
+<text x="24" y="34">01 / GEOAI &amp; ANALYSIS</text><text x="344" y="34">02 / TYPED APPLICATIONS</text>
+<text x="24" y="194">03 / WEB &amp; BROWSER</text><text x="344" y="194">04 / SPATIAL DATABASES</text>
+<text x="24" y="354">05 / SEARCH &amp; MESSAGING</text><text x="344" y="354">06 / APIS &amp; CONCURRENCY</text>
+<text x="24" y="514">07 / STORAGE ENGINES</text><text x="344" y="514">08 / WORKFLOW SYSTEMS</text>
+</g>
+<g font-family="Arial,Helvetica,sans-serif" font-size="43" font-weight="700" fill="#242320" letter-spacing="-1.5">
+<text x="23" y="94">Python</text><text x="343" y="94">TypeScript</text>
+<text x="23" y="254">JavaScript</text><text x="343" y="254">SQL</text>
+<text x="23" y="414">Rust</text><text x="343" y="414">Go</text>
+<text x="23" y="574">C++</text><text x="343" y="574">Java</text>
+</g>
+<g font-family="Arial,Helvetica,sans-serif" font-size="17" fill="#66625B">
+<text x="24" y="131">Pipelines, rasters, models</text><text x="344" y="131">Interfaces, maps, 3D</text>
+<text x="24" y="291">Applications &amp; services</text><text x="344" y="291">PostgreSQL / PostGIS</text>
+<text x="24" y="451">Brokers &amp; inverted indexes</text><text x="344" y="451">Gateways &amp; key-value stores</text>
+<text x="24" y="611">MemTables, WAL, SSTables</text><text x="344" y="611">DAGs &amp; asynchronous tasks</text>
+</g>
+</svg>
