@@ -4,6 +4,7 @@
 
 <p align="center">
   <a href="https://www.sanusiabdulfatai.com"><strong>PORTFOLIO</strong></a> &nbsp; / &nbsp;
+  <a href="#applied-machine-learning--experiments-you-can-rerun"><strong>MACHINE LEARNING</strong></a> &nbsp; / &nbsp;
   <a href="#01--languages--engineering"><strong>LANGUAGES</strong></a> &nbsp; / &nbsp;
   <a href="#02--selected-work"><strong>PROJECTS</strong></a> &nbsp; / &nbsp;
   <a href="https://linkedin.com/in/abdulfatai-sanusi-gis/"><strong>LINKEDIN</strong></a> &nbsp; / &nbsp;
@@ -27,6 +28,18 @@ My work runs from a satellite band or a field survey all the way to a database, 
 >
 > — The line I keep coming back to.
 
+## Applied machine learning / Experiments you can rerun
+
+My ML work connects Earth observation with the engineering needed to trust an experiment: knowing which images were used, choosing a checkpoint without fitting to test labels, checking numerical correctness, and measuring what an inference change actually costs.
+
+| Project | What is implemented | Evidence to inspect |
+| :--- | :--- | :--- |
+| **[GeoVision Bench](https://github.com/dimxxkun/geovision-bench)** | A from-scratch PyTorch land-cover classifier, image-hash split provenance, a colour-statistics baseline, validation-only calibration, and a paired augmentation study. | [Experiment reports](https://github.com/dimxxkun/geovision-bench/tree/main/results) · [Model card](https://github.com/dimxxkun/geovision-bench/blob/main/docs/model-card.md) |
+| **[TileFlow Inference](https://github.com/dimxxkun/tileflow-inference)** | Halo-aware tiled inference with whole-image parity checks. A small CNN trained on EuroSAT images adds a real-image denoising workflow and a measured CPU memory/latency comparison. | [Trained-model experiment](https://github.com/dimxxkun/tileflow-inference/blob/main/docs/denoising-experiment.md) · [Numerical tests](https://github.com/dimxxkun/tileflow-inference/tree/main/tests) |
+| **[ML Eval Forge](https://github.com/dimxxkun/ml-eval-forge)** | NumPy model training, calibration and a replay validator that rejects inconsistent saved models, predictions, metrics and loss history. | [Debugging case study](https://github.com/dimxxkun/ml-eval-forge/blob/main/docs/validation-case-study.md) · [Failure-path tests](https://github.com/dimxxkun/ml-eval-forge/blob/main/tests/test_validation.py) |
+
+**Python · PyTorch · NumPy · pytest · reproducible CLI workflows · GitHub Actions.** These are focused portfolio experiments developed with coding-agent assistance. Each repository separates measured results from limitations; the EuroSAT image split does not establish performance in a new geographic region. The case study shows the debugging process, including a failing regression before the repair.
+
 ## 01 / Languages & engineering
 
 <picture>
@@ -40,7 +53,7 @@ I also write **Rust, Go, C++, and Java**. My public systems projects cover searc
 
 | Language | Where you can see it |
 | :--- | :--- |
-| **Python** | [UHI-LST](https://github.com/dimxxkun/UHI_LST-MODEL): Landsat processing, numerical analysis, and land-cover classification |
+| **Python** | [GeoVision Bench](https://github.com/dimxxkun/geovision-bench): reproducible PyTorch training; [TileFlow](https://github.com/dimxxkun/tileflow-inference): numerical inference systems; [UHI-LST](https://github.com/dimxxkun/UHI_LST-MODEL): Landsat processing and analysis |
 | **TypeScript** | [Drone Flight Path Visualizer](https://cesium-developer-cert.vercel.app/): React, CesiumJS, and CZML; [portfolio source](https://github.com/dimxxkun/sanusiabdulfatai) |
 | **JavaScript** | [Notification service](https://github.com/dimxxkun/notification-service) and browser application work |
 | **SQL** | PostgreSQL/PostGIS spatial data workflows, including the [customer enumeration work in my portfolio](https://www.sanusiabdulfatai.com/projects) |
@@ -104,7 +117,8 @@ My solar-site suitability work evaluates locations in **Akure and Ikorodu** usin
 | Discipline | Tools I use |
 | :--- | :--- |
 | **Earth observation & GIS** | ArcGIS Pro · ArcGIS Enterprise · QGIS · Google Earth Engine · ESA SNAP · ENVI · ERDAS · GDAL · GeoServer |
-| **GeoAI & scientific computing** | ArcPy · GeoPandas · Rasterio · NumPy · scikit-learn · Random Forest · SVM · deep learning · Hugging Face |
+| **GeoAI & scientific computing** | PyTorch · NumPy · scikit-learn · ArcPy · GeoPandas · Rasterio · Random Forest · SVM · Hugging Face |
+| **ML evaluation & tooling** | Seeded experiments · validation-only calibration · numerical parity · CPU/RSS benchmarks · pytest · coding agents · GitHub Actions |
 | **Web maps & 3D** | CesiumJS · CZML · Three.js · Leaflet · Mapbox GL JS · OpenLayers · deck.gl · ArcGIS Maps SDK |
 | **Applications & APIs** | React · Next.js · Django / GeoDjango · FastAPI · Node.js · Vite · Tailwind CSS · REST |
 | **Data & delivery** | PostgreSQL · PostGIS · spatial ETL · Docker · Vercel |
