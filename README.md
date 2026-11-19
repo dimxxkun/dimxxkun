@@ -178,3 +178,9 @@ I teach GIS and remote sensing, share work through talks and workshops, and writ
 If you're working on Earth observation, GeoAI, a spatial product, or enterprise GIS, [let's talk](mailto:work.abdulfatai@gmail.com).
 
 <a href="https://www.sanusiabdulfatai.com"><img src="./footer.svg" width="100%" alt="Sanusi Abdulfatai. Geospatial software, from field to interface. Explore sanusiabdulfatai.com." /></a>
+
+## License and commercial use
+
+Original material in this repository is available under the [Noncommercial Use and Commercial Permission License](LICENSE). **Noncommercial use is free. Commercial use requires prior written permission and a separate written agreement specifying the scope and agreed fee.** Contact [work.abdulfatai@gmail.com](mailto:work.abdulfatai@gmail.com) with the repository name and intended use.
+
+Portfolio review and recruitment evaluation are permitted without a fee. Third-party components retain their own licenses. Permissions already granted for earlier versions remain valid; the new terms do not revoke those grants. These are custom source-available terms, not an OSI-approved open-source license.
