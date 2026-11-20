@@ -4,6 +4,7 @@
 
 <p align="center">
   <a href="https://www.sanusiabdulfatai.com"><strong>PORTFOLIO</strong></a> &nbsp; / &nbsp;
+  <a href="#gpu-programming--systems-engineering"><strong>GPU &amp; C++</strong></a> &nbsp; / &nbsp;
   <a href="#applied-machine-learning--experiments-you-can-rerun"><strong>MACHINE LEARNING</strong></a> &nbsp; / &nbsp;
   <a href="#01--languages--engineering"><strong>LANGUAGES</strong></a> &nbsp; / &nbsp;
   <a href="#02--selected-work"><strong>PROJECTS</strong></a> &nbsp; / &nbsp;
@@ -27,6 +28,19 @@ My work runs from a satellite band or a field survey all the way to a database, 
 > “GIS and Remote Sensing can solve any problem, as long as it exists on Earth.”
 >
 > — The line I keep coming back to.
+
+## GPU programming & systems engineering
+
+Dedicated GPU compute, shader, and C++20 host-runtime repositories covering **CUDA**, **WebGPU/WGSL**, **GLSL 4.60**, and **Modern C++20**—each backed by automated GitHub Actions CI (`nvcc`, `wgsl_reflect`, `glslangValidator` / SPIR-V, GCC/Clang `-Werror`, and ASan/UBSan).
+
+| Repository | Stack | What is implemented | CI & code |
+| :--- | :--- | :--- | :--- |
+| **[Flash Kernel CUDA](https://github.com/dimxxkun/flash-kernel-cuda)** | `CUDA 12.x` `C++17` `CMake` | Progressive SGEMM ladder (naive → `+1` bank-conflict-padded 32×32 SMEM tile → 2D register-blocked 64×64×8 `float4`), fused RMSNorm + SwiGLU, single-pass online safe softmax, FlashAttention-style SRAM-tiled SDPA with causal masking, Blelloch scan, Nsight Compute profiling script, and analytical roofline modeling. | [![CI](https://github.com/dimxxkun/flash-kernel-cuda/actions/workflows/ci.yml/badge.svg)](https://github.com/dimxxkun/flash-kernel-cuda/actions/workflows/ci.yml)<br>[Kernels](https://github.com/dimxxkun/flash-kernel-cuda/tree/main/src/kernels) · [Tests](https://github.com/dimxxkun/flash-kernel-cuda/blob/main/tests/test_reference.cpp) |
+| **[WGSL Compute Lab](https://github.com/dimxxkun/wgsl-compute-lab)** | `WebGPU` `WGSL` `TypeScript` | Pure WebGPU compute workbench: 16×16 workgroup-tiled SGEMM, conflict-free multi-pass Blelloch prefix sum, two-stage parallel tree reduction, 65K+ ping-pong particle simulation + instanced renderer, `GPUQuerySet` timestamp profiling, and `wgsl_reflect` AST/binding contract tests. | [![CI](https://github.com/dimxxkun/wgsl-compute-lab/actions/workflows/ci.yml/badge.svg)](https://github.com/dimxxkun/wgsl-compute-lab/actions/workflows/ci.yml)<br>[WGSL Shaders](https://github.com/dimxxkun/wgsl-compute-lab/tree/main/src/shaders) · [Tests](https://github.com/dimxxkun/wgsl-compute-lab/tree/main/tests) |
+| **[GLSL Compute Engine](https://github.com/dimxxkun/glsl-compute-engine)** | `GLSL 4.60` `OpenGL 4.6` `C++20` | 9 GLSL 4.60 compute & graphics shaders: 3D Simplex curl-noise particles, GPU-driven AABB frustum culling (`DrawElementsIndirectCommand` + `atomicAdd`), parallel bitonic sort, 16×16 Forward+ tiled light culling, Cook-Torrance PBR deferred lighting, SDF raymarcher, and C++20 host runtime with compile-time `std140`/`std430` ABI checks. | [![CI](https://github.com/dimxxkun/glsl-compute-engine/actions/workflows/ci.yml/badge.svg)](https://github.com/dimxxkun/glsl-compute-engine/actions/workflows/ci.yml)<br>[Shaders](https://github.com/dimxxkun/glsl-compute-engine/tree/main/shaders) · [C++ Host](https://github.com/dimxxkun/glsl-compute-engine/tree/main/include/glengine) |
+| **[GPU Runtime C++](https://github.com/dimxxkun/gpu-runtime-cpp)** | `C++20` `Lock-Free` `AVX2` | Zero-dependency host-side GPU runtime: 32-bin coalescing aligned memory pool, cache-line-isolated (`alignas(64)`) lock-free SPSC command ring buffer (`acquire`/`release`), multi-stream DAG task-graph scheduler with Kahn cycle detection & Graphviz DOT export, strided `TensorView<T>` + BLIS-blocked SGEMM, and `chrome://tracing` JSON profiler. | [![CI](https://github.com/dimxxkun/gpu-runtime-cpp/actions/workflows/ci.yml/badge.svg)](https://github.com/dimxxkun/gpu-runtime-cpp/actions/workflows/ci.yml)<br>[Headers](https://github.com/dimxxkun/gpu-runtime-cpp/tree/main/include/gpuruntime) · [Tests](https://github.com/dimxxkun/gpu-runtime-cpp/tree/main/tests) |
+
+**CUDA 12.x (`SM 80/86/89`) · WebGPU / WGSL · GLSL 4.60 / SPIR-V · Modern C++20 · CMake · GitHub Actions CI.**
 
 ## Applied machine learning / Experiments you can rerun
 
@@ -59,7 +73,8 @@ I also write **Rust, Go, C++, and Java**. My public systems projects cover searc
 | **SQL** | PostgreSQL/PostGIS spatial data workflows, including the [customer enumeration work in my portfolio](https://www.sanusiabdulfatai.com/projects) |
 | **Rust** | [Strata Queue](https://github.com/dimxxkun/strata-queue): partitioned messaging; [Vortex Search](https://github.com/dimxxkun/vortex-search): inverted indexes and BM25 ranking |
 | **Go** | [Zenith Gateway](https://github.com/dimxxkun/zenith-gateway): rate limiting and circuit breakers; [Sentinel KV](https://github.com/dimxxkun/sentinel-kv): sharding, TTL, and write-ahead logging |
-| **C++17** | [Hydra LSM](https://github.com/dimxxkun/hydra-lsm): MemTables, SSTables, Bloom filters, and a write-ahead log |
+| **CUDA / WGSL / GLSL** | [Flash Kernel CUDA](https://github.com/dimxxkun/flash-kernel-cuda): SGEMM, FlashAttention-style SDPA, RMSNorm/SwiGLU, scan; [WGSL Compute Lab](https://github.com/dimxxkun/wgsl-compute-lab): WebGPU compute workbench; [GLSL Compute Engine](https://github.com/dimxxkun/glsl-compute-engine): GPU-driven OpenGL 4.6 compute & PBR shaders |
+| **C++17 / C++20** | [GPU Runtime C++](https://github.com/dimxxkun/gpu-runtime-cpp): aligned memory pool, lock-free SPSC queue, DAG scheduler; [Hydra LSM](https://github.com/dimxxkun/hydra-lsm): MemTables, SSTables, Bloom filters, and WAL |
 | **Java** | [Nexus Workflow](https://github.com/dimxxkun/nexus-workflow): DAG scheduling, asynchronous execution, and retry policies |
 
 ## 02 / Selected work
@@ -116,6 +131,7 @@ My solar-site suitability work evaluates locations in **Akure and Ikorodu** usin
 
 | Discipline | Tools I use |
 | :--- | :--- |
+| **GPU compute & shaders** | CUDA 12.x · WebGPU · WGSL · GLSL 4.60 · OpenGL 4.6 DSA · SPIR-V · C++20 · CMake · Nsight Compute · glslangValidator · ASan/UBSan |
 | **Earth observation & GIS** | ArcGIS Pro · ArcGIS Enterprise · QGIS · Google Earth Engine · ESA SNAP · ENVI · ERDAS · GDAL · GeoServer |
 | **GeoAI & scientific computing** | PyTorch · NumPy · scikit-learn · ArcPy · GeoPandas · Rasterio · Random Forest · SVM · Hugging Face |
 | **ML evaluation & tooling** | Seeded experiments · validation-only calibration · numerical parity · CPU/RSS benchmarks · pytest · coding agents · GitHub Actions |
